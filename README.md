@@ -1,4 +1,4 @@
-# Pneumonia-Detection-From-Chest-X-Rays-and-FDA-Submission
+# Pneumonia Detection from Chest X-Rays and FDA Submission
 
 ## 2D Medical Image Classification - Udacity AI for Heathcare Course
 
