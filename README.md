@@ -45,7 +45,9 @@ from keras.callbacks import ModelCheckpoint, EarlyStopping
 
 ## Files in the Repository
 - **EDA.ipynb:** the notebook for exploratory data analysis.
-- **Build and train model.ipynb:** the notebook for train the model.
+- **Build and train model.ipynb:** the notebook for building and training the model.
+- **Inference.ipynb:** the notebook for clinical workflow integration.
+- **FDA_Submission_Template.md:** This is the template for creating the FDA submission.
 - **FDA  Submission.pdf:** the document for FDA submission.
-- **sample_labels.csv:** the .csv file that includes medical image labels.
-- **test.dcm files:** predicted medical images with trained model and their predicted labels. test3.dcm image is above.
+- **sample_labels.csv:** the .csv file that used to assess images in the pixel-level.
+- **.dcm files:**  test files to test the clinical workflow integration. test3.dcm image is above.
