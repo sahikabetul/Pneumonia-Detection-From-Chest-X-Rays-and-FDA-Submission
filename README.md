@@ -10,6 +10,39 @@ For this project, I used the medical images with clinical labels for each image 
 
 I used 112,000 chest x-rays with disease labels acquired from 30,000 patients.
 
+## About the Dataset
+
+The dataset provided to you for this project was curated by the NIH specifically to address the problem of a lack of large x-ray datasets with ground truth labels to be used in the creation of disease detection algorithms. 
+
+The data is mounted in the Udacity Jupyter GPU workspace provided to you, along with code to load the data. Alternatively, you can download the data from the [kaggle website](https://www.kaggle.com/nih-chest-xrays/data) and run it locally. You are STRONGLY recommended to complete the project using the Udacity workspace since the data is huge, and you will need GPU to accelerate the training process.
+
+There are 112,120 X-ray images with disease labels from 30,805 unique patients in this dataset.  The disease labels were created using Natural Language Processing (NLP) to mine the associated radiological reports. The labels include 14 common thoracic pathologies: 
+- Atelectasis 
+- Consolidation
+- Infiltration
+- Pneumothorax
+- Edema
+- Emphysema
+- Fibrosis
+- Effusion
+- Pneumonia
+- Pleural thickening
+- Cardiomegaly
+- Nodule
+- Mass
+- Hernia 
+
+The biggest limitation of this dataset is that image labels were NLP-extracted so there could be some erroneous labels but the NLP labeling accuracy is estimated to be >90%.
+
+The original radiology reports are not publicly available but you can find more details on the labeling process [here.](https://arxiv.org/abs/1705.02315) 
+
+### Dataset Contents: 
+
+1. 112,120 frontal-view chest X-ray PNG images in 1024*1024 resolution (under images folder)
+2. Meta data for all images (Data_Entry_2017.csv): Image Index, Finding Labels, Follow-up #,
+Patient ID, Patient Age, Patient Gender, View Position, Original Image Size and Original Image
+Pixel Spacing.
+
 ## Project Steps
 This project has the following steps.
 
