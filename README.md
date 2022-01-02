@@ -1,6 +1,6 @@
 # Pneumonia Detection from Chest X-Rays and FDA Submission
 
-## 2D Medical Image Classification - Udacity AI for Healthcare Course
+## 2D Medical Image Classification and FDA Submission - Udacity AI for Healthcare Course
 
 In this project, I analyzed data from the NIH Chest X-ray Dataset and train a CNN to classify a given chest x-ray for the presence or absence of pneumonia. This project culminate in a model that can predict the presence of pneumonia with human radiologist-level accuracy that can be prepared for submission to the FDA for 510(k) clearance as software as a medical device. As part of the submission preparation, I formally described my model, the data that it was trained on, and a validation plan that meets FDA criteria.
 
